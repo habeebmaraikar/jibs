@@ -362,6 +362,22 @@ p {
     background-color:#FECE1A;
     color:#181A1C;
 }
+
+
+ .button-jibs,  .button-jibs:visited, .button-jibs:focus {
+    display:inline-block;
+    border:1px solid #FECE1A;
+    color:#181A1C;
+    background-color:#FECE1A;
+    padding:10px 30px;
+    font-size:17px;
+    line-height:auto;
+}
+.button-jibs:hover, .button-jibs:active{
+    background-color:#FECE1A;
+    color:#fff;
+}
+
 /*
 2.3 Thumbnails - Predefined bootstrap's thumbnail class.
 **********/
@@ -498,17 +514,32 @@ p {
     color: #FECE1A;
 }
 .primary-section h1 {
-    color:#FFF;
+    color:#FECE1A;
 }
+
+.primary-section a{
+    color:#FECE1A;
+}
+
 .secondary-section {
     background:#FECE1A;
 }
 .secondary-section .title {
     border-bottom: 1px solid #181A1C;
 }
-.secondary-section h1, .secondary-section .title p {
+.secondary-section h1, .secondary-section h3, .secondary-section h2, .secondary-section .title p {
     color: #181A1C;
 }
+
+.secondary-section p{
+    color:#181A1C;
+}
+
+.secondary-section a:hover{
+    color:#181A1C;
+    text-decoration: underline;
+}
+
 /* Third section use bacground image */
 .third-section {
     padding-bottom: 70px;
@@ -561,7 +592,12 @@ p {
 }
 .project-description p {
     padding-left:0;
+    color: #ffffff;
 }
+.single-project p{
+     color: #ffffff;
+ }
+
 .project-title {
     margin-top:15px;
     margin-bottom:15px;
