@@ -342,7 +342,8 @@ p {
 }
 .button:hover, .button:active{
     background-color:#181A1C;
-    color:#fff;
+    color:#fff!important;
+    text-decoration: none!important;
 }
 .button-sp, .button-sp:visited, .button-sp:focus {
     border:none;
@@ -367,15 +368,19 @@ p {
  .button-jibs,  .button-jibs:visited, .button-jibs:focus {
     display:inline-block;
     border:1px solid #FECE1A;
-    color:#181A1C;
+    color: #181A1C!important;
     background-color:#FECE1A;
     padding:10px 30px;
     font-size:17px;
-    line-height:auto;
+    line-height:auto; 
 }
 .button-jibs:hover, .button-jibs:active{
     background-color:#FECE1A;
-    color:#fff;
+    color:#fff!important;
+}
+
+.secondary-section#service a:hover{
+    text-decoration: none!important;
 }
 
 /*
