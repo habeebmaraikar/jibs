@@ -216,7 +216,7 @@ p {
     transition: border-color 1s ease;
 }
 .navbar .nav > li:hover> a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
-    border: 1px solid #3AAFA9;
+    border: 1px solid #FECE1A;
     color: #fff;
     background-color: #181A1C;
     transition: border-color 1s ease;
@@ -302,7 +302,7 @@ p {
     text-align:center;
     width: 0;
     height: 0;
-    border-top: 30px solid #3AAFA9; /*181A1C*/
+    border-top: 30px solid #181A1C;
     border-left: 585px outset transparent;
     border-right: 585px outset transparent;
     position: relative;
@@ -355,26 +355,26 @@ p {
 }
 .button-ps, .button-ps:visited, .button-ps:focus {
     border:none;
-    background-color:#3AAFA9;
-    color:#ffffff;
+    background-color:#181A1C;
+    color:#FECE1A;
 }
 .button-ps:hover, .button-ps:active {
-    background-color:#2e9c96;
-    color:#ffffff;
+    background-color:#FECE1A;
+    color:#181A1C;
 }
 
 
  .button-jibs,  .button-jibs:visited, .button-jibs:focus {
     display:inline-block;
-    border:1px solid #3AAFA9;
-    color: #ffffff!important;
-    background-color:#3AAFA9;
+    border:1px solid #FECE1A;
+    color: #181A1C!important;
+    background-color:#FECE1A;
     padding:10px 30px;
     font-size:17px;
     line-height:auto; 
 }
 .button-jibs:hover, .button-jibs:active{
-    background-color:#2e9c96;
+    background-color:#FECE1A;
     color:#fff!important;
 }
 
@@ -505,54 +505,28 @@ p {
     color: #FFF;
     font-weight: lighter;
 }
-
-.da-slider .mask {
-    background: #F2F2F2;
-}
-
-#da-slider > .triangle{
-   border-top: 30px solid #181A1C;
-}
-
-
 .primary-section {
-    background:#3AAFA9;   /*181A1C*/
+    background:#181A1C;
 }
 .primary-section .triangle {
-    border-top: 40px solid #F2F2F2; /*FECE1A*/
+    border-top: 40px solid #FECE1A;
 }
 .primary-section .title {
     border-bottom: 1px solid #FFF;
 }
-.primary-section, .primary-section .title p{
-    color: #181A1C;
+.primary-section, .primary-section .title p, .primary-section h3 {
+    color: #FECE1A;
 }
-
-.primary-section p {
-    color: #181A1C;
-    font-weight: 500;
-}
-
-.primary-section h3, .primary-section h4 {
-    color: #181A1C;
-    font-weight: bolder;
- }
-
-
 .primary-section h1 {
-    color:#181A1C;
-}
-
-.thumbnail > h3 {
-    color: #3AAFA9;
+    color:#FECE1A;
 }
 
 .primary-section a{
-    color:#181A1C;
+    color:#FECE1A;
 }
 
 .secondary-section {
-    background:#F2F2F2; /*FECE1A*/
+    background:#FECE1A;
 }
 .secondary-section .title {
     border-bottom: 1px solid #181A1C;
@@ -574,7 +548,7 @@ p {
 .third-section {
     padding-bottom: 70px;
     background: #181A1C url(../images/brand-bg.png) no-repeat center;
-    border-top:6px solid #2e9c96;
+    border-top:6px solid #FECE1A;
 }
 .third-section .container {
     padding-top:20px;
@@ -582,7 +556,7 @@ p {
 }
 .third-section .title {
     border-bottom: 1px solid #A1AAB7;
-    color: #3AAFA9;
+    color: #FECE1A;
 }
 .sub-section {
     margin-top:30px;
@@ -631,7 +605,7 @@ p {
 .project-title {
     margin-top:15px;
     margin-bottom:15px;
-    border-bottom:1px solid #3AAFA9;
+    border-bottom:1px solid #FECE1A;
 }
 .project-title h3 {
     float:left;
@@ -640,11 +614,11 @@ p {
     width:80%;
 }
 .project-title .close {
-    color: #3AAFA9;
+    color: #FECE1A;
     margin-top:10px;
 }
 .project-info span, .project-title h3 {
-    color:#3AAFA9;
+    color:#FECE1A;
 }
 .project-info {
     font-weight:100;
@@ -734,7 +708,7 @@ p {
     border:1px solid white;
 }
 .client-slider img:hover {
-    background-color:#3AAFA9;
+    background-color:#FECE1A;
 }
 .client-nav {
     list-style:none;
@@ -748,7 +722,7 @@ p {
 .client-nav li a {
     display:inherit;
     padding:5px;
-    background:#3AAFA9;
+    background:#FECE1A;
     border-radius:3px;
     width:20px;
     height:20px;
@@ -757,15 +731,15 @@ p {
     background:#181A1C;
 }
 .testimonial p {
-    color:#ffffff;
-    background:#2e9c96;
+    color:#181A1C;
+    background:#FECE1A;
     padding:15px;
     margin:0;
 }
 .testimonial .arrow {
     margin-left:10px;
     width:0;
-    border-top:10px solid #2e9c96;
+    border-top:10px solid #FECE1A;
     border-left: 20px outset transparent;
     border-right: 20px outset transparent;
 }
@@ -817,7 +791,7 @@ p {
     background-color:#181A1C;
     text-transform:uppercase;
     text-align: center;
-    color:#3aafa9;
+    color:#FECE1A;
     padding:40px 0px;
     font-size: 36px;
     margin-top:0px;
@@ -1029,7 +1003,7 @@ p {
     right:20px;
 	border:1px solid #fff;
     display:none;
-    background: #3AAFA9;
+    background: #FECE1A;
 }
 .scrollup > a {
     position:relative;

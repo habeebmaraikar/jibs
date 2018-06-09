@@ -26,7 +26,7 @@
     left:0;
     width:100%;
     height:100%;
-    background: #F2F2F2;
+    background: #FECE1A;
     opacity:0.85;
     filter: alpha(opacity=85);
 }
@@ -97,10 +97,10 @@
     width: 45%;
     padding:0px;
     top: 230px;
-    color: #181A1C;
+    color: #fff;
     height: 90px;
     overflow: hidden;
-    font-weight: 500;
+    font-weight: 400;
 }
 .da-slide .da-img {
     text-align: center;
