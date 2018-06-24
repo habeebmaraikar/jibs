@@ -1334,10 +1334,14 @@
     }
     
     .da-slide .da-img {
-        display:none;
+       
     } 
     
     .da-slide .da-link {
        
     } 
+    
+    .da-dots{
+        bottom: 0px;
+    }
 }
