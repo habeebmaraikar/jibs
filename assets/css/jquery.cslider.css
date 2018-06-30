@@ -98,7 +98,6 @@
     padding:0px;
     top: 230px;
     color: #181A1C;
-    height: 90px;
     overflow: hidden;
     font-weight: 500;
 }
@@ -112,7 +111,7 @@
     /*60%*/
 }
 .da-slide .da-link {
-    top: 340px;
+    top: 380px;
     margin:0;
     font-size: 18px;
     text-align: center;

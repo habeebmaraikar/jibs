@@ -335,7 +335,7 @@ p {
     border:1px solid #181A1C;
     color:#181A1C;
     background-color:transparent;
-    padding:15px 30px;
+    padding:10px 20px;
     font-size:17px;
     line-height:auto;
 }
@@ -437,6 +437,11 @@ p {
 .thumbnail > p {
     padding-bottom:20px;
 }
+
+.thumbnail > .caption{
+    color: #ffffff;
+}
+
 .thumbnail .mask {
     opacity:0.85;
     filter: alpha(opacity=85);
